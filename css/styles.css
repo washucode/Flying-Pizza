@@ -8,3 +8,10 @@ body{
 
 
 }
+.jumbotron{
+  background-color: white;
+  opacity:0.9;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 2px;
+ }
