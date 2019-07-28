@@ -46,3 +46,10 @@ text-align: center;
    padding-right: 2%;
    width:5%;
  }
+
+
+ /* pizzatypes */
+  .pizza-types{
+    opacity: 0.9;
+    border-radius: 2px;
+  }
