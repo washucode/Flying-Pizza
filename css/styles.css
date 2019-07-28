@@ -15,3 +15,11 @@ body{
   margin-right: 20%;
   border-radius: 2px;
  }
+ .jumbotron h1{
+   font-family: 'Reenie Beanie', cursive;
+    font-size:50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -6%;
+    font-stretch: extra-expanded;
+  }
