@@ -112,7 +112,7 @@ $(document).ready(function(){
   $("p#total").text("TOTAL: "+newPizzaOrder.total()+"ksh");
 
   $("input[name='delivery']").on("click", function(){
-    $(".delivery-form").toggle(this.value === "false" && this.checked);
+    $(".delivery-form1").toggle(this.value === "false" && this.checked);
   });
 
   ///alert message from input values ~ delivery form
@@ -140,7 +140,3 @@ $(document).ready(function(){
 
 
   })
-
-
-
-})

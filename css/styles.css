@@ -149,6 +149,12 @@ text-align: center;
 #Orders h4{
   padding-bottom:5%;
 }
-.delivery-form{
+.delivery-form1{
   display: none;
+}
+
+
+.ordersummary{
+  position:sticky;
+
 }
