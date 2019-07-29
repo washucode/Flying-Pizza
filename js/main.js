@@ -134,6 +134,10 @@ $(document).ready(function(){
 
 
   })
+  ///to make order summary to move when screen is scrolled
+  $(window).scroll(function(){
+  $(".ordersummary").css({"margin-top": ($(window).scrollTop()) + "px", "margin-left":($(window).scrollLeft()) + "px"});
+});
 
 
 
