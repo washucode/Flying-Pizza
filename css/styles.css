@@ -77,3 +77,11 @@ text-align: center;
 .pizza-types p{
   margin-top: -3%;
 }
+
+.pizza-types .btn{
+  text-align: right;
+
+  background-color: #d35400;
+  border:none;
+
+ }
