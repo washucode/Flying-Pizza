@@ -29,7 +29,7 @@ $(document).ready(function(){
     var crustPrice = 0;
     var toppingPrice = 0;
     var sizeName;
-    var crustName;
+    var crustName =' ';
     var toppingsName = ' ';
 
   //to get pizza type names
@@ -116,11 +116,14 @@ $(document).ready(function(){
   });
 
   ///alert message from input values ~ delivery form
+     var fullname = "";
+     var location = "";
+
 
     $("form.delivery-form").submit(function(event){
       event.preventDefault();
-      var fullname = $("#new-full-name").val();
-      var location = $("#new-location").val();
+       fullname = $("#new-full-name").val();
+       location = $("#new-location").val();
       alert(fullname + " your Order will be delivered to "+location);
     })
 
@@ -129,18 +132,33 @@ $(document).ready(function(){
     $("div#Orders").append("<p><span class='neworder'> Pizza Type: "+ newPizzaOrder.name + " - "+sizeName+ "</span></p><br>" +
                            "<p><span class='neworder'> Toppings: "+ toppingsName +"</span></p><br> " +
                            "<p><span class='neworder'> Crust: "+ crustName +"</span></p><br>" +
-                           "<p><span class='neworder' id = 'totalorder'> Total in ksh : "+ newPizzaOrder.total()+ "</span></p><br><br>");
+                           "<p><span class='neworder totalorder' > Total in ksh : "+ newPizzaOrder.total()+ "</span></p><br><br>"
+                           );
+
+    var pizzaGrandTotal = 0;
+    for(var i = 0;i<$('.totalorder').length;i++){
+      pizzaGrandTotal  += newPizzaOrder.total();
+
+    }
+
+    $(".confirm2").click(function(event){
+      event.preventDefault();
+      $("div#totalOrder").text("Grand Total = "+pizzaGrandTotal+"ksh");
+      alert("Grand Total = "+pizzaGrandTotal+"ksh .");
+      alert("Thank-You for ordering with us.Your order will be ready shortly");
+    })
 
 
 
   })
+
+
+
+
+
+
+
   ///to make order summary to move when screen is scrolled
-  $(window).scroll(function(){
-  $(".ordersummary").css({"margin-top": ($(window).scrollTop()) + "px", "margin-left":($(window).scrollLeft()) + "px"});
+  // $(window).scroll(function(){
+  // $(".ordersummary").css({"margin-top": ($(window).scrollTop()) + "px"});
 });
-
-
-
-
-
-  })
