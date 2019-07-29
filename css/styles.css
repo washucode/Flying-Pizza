@@ -85,3 +85,10 @@ text-align: center;
   border:none;
 
  }
+
+ .tagforpizzatype{
+   color:#d35400;
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   font-weight: bold;
+ }
