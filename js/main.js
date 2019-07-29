@@ -115,6 +115,15 @@ $(document).ready(function(){
     $(".delivery-form").toggle(this.value === "false" && this.checked);
   });
 
+  ///alert message from input values ~ delivery form
+
+    $("form.delivery-form").submit(function(event){
+      event.preventDefault();
+      var fullname = $("#new-full-name").val();
+      var location = $("#new-location").val();
+      alert(fullname + " your Order will be delivered to "+location);
+    })
+
 
 
 
