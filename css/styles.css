@@ -64,3 +64,16 @@ text-align: center;
     text-align: center;
 
   }
+
+  .pizza-types h2{
+   font-size: 16px;
+   font-weight: bolder;
+
+ }
+
+ .pizza-types h2,p{
+   padding-left: 2%;
+ }
+.pizza-types p{
+  margin-top: -3%;
+}
