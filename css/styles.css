@@ -53,3 +53,14 @@ text-align: center;
     opacity: 0.9;
     border-radius: 2px;
   }
+
+  .pizza-types h1{
+   margin-top:-1%;
+     margin-bottom:2%;
+    background-size: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #d35400;
+    text-align: center;
+
+  }
