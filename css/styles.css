@@ -106,3 +106,26 @@ text-align: center;
   filter: alpha(opacity=70);
   background: #000;
   }
+
+  .modal h4 {
+  font-weight: bolder;
+}
+
+.crust, .size{
+  display: inline;
+  padding-left: 2%
+}
+.place-order{
+  background-color:#d35400;
+  text-align: center;
+}
+
+.place-order:hover{
+  background-color: #e67e22;
+}
+
+#total{
+  font-size: 20px;
+  font-weight: bolder;
+
+}
