@@ -187,6 +187,943 @@
 <!-- end of section pizzatypes  -->
 
 
+<!-- modal for meat lovers -->
+    <div class="modal" id="Modal1">
+     <div class="modal-dialog">
+       <div class="modal-content">
+
+         <!-- Modal Header -->
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title" id = "title">For Meat Lovers</h4>
+         </div>
+         <!-- Modal body -->
+         <div class="modal-body">
+           <h4>Choose Size: </h4>
+
+             <div class="row ">
+              <div class="col-md-12">
+                <form id ="neworder" >
+
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="small" value="550" required>
+                     <label class="form-check-label" for="inlineRadio1">Small - 550ksh</label>
+                   </div>
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="850" required>
+                     <label class="form-check-label" for="inlineRadio2">Medium  - 850ksh</label>
+                   </div>
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1200" required>
+                     <label class="form-check-label" for="inlineRadio3">Large   - 1200ksh</label>
+                   </div>
+
+
+                 <h4>Choose Crust : </h4>
+
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                     <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                   </div>
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                     <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                   </div>
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                     <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                   </div>
+
+
+                 <h4>Choose Extra Toppings : </h4>
+
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                       <label class="form-check-label" for="defaultCheck1">
+                        Cheese - 100ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Sausage - 100ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Bacon - 150ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Mushroom - 150ksh
+                      </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Veggies - 50ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Olives - 50ksh
+                       </label>
+                     </div>
+
+
+                     <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                     <div class="row ">
+                       <div class="col-md-3">
+
+                       </div>
+                       <div class="col-md-6 total">
+                        <p id = "total"> </p>
+                       </div>
+                       <div class="col-md-3">
+
+                       </div>
+                     </div>
+                     </form>
+                     <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+               </div>
+             </div>
+           </div>
+        <!-- end of modal body -->
+         <!-- Modal footer -->
+         <!-- <div class="modal-footer">
+
+         </div> -->
+
+       </div>
+     </div>
+    </div>
+    <!-- end of modal for meat lovers -->
+    <!--  -->
+
+
+<!-- modal for Combination -->
+
+    <div class="modal" id="Modal8">
+     <div class="modal-dialog">
+       <div class="modal-content">
+
+         <!-- Modal Header -->
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title" id = "title">Combination</h4>
+         </div>
+         <!-- Modal body -->
+         <div class="modal-body">
+           <h4>Choose Size: </h4>
+
+             <div class="row ">
+              <div class="col-md-12">
+                <form id ="neworder" >
+
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="small" value="550" required>
+                     <label class="form-check-label" for="inlineRadio1">Small - 550ksh</label>
+                   </div>
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="850" required>
+                     <label class="form-check-label" for="inlineRadio2">Medium  - 850ksh</label>
+                   </div>
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1200" required>
+                     <label class="form-check-label" for="inlineRadio3">Large   - 1200ksh</label>
+                   </div>
+
+
+                 <h4>Choose Crust : </h4>
+
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                     <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                   </div>
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                     <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                   </div>
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                     <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                   </div>
+
+
+                 <h4>Choose Extra Toppings : </h4>
+
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                       <label class="form-check-label" for="defaultCheck1">
+                        Cheese - 100ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Sausage - 100ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Bacon - 150ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Mushroom - 150ksh
+                      </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Veggies - 50ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Olives - 50ksh
+                       </label>
+                     </div>
+                     <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                     <div class="row ">
+                       <div class="col-md-3">
+
+                       </div>
+                       <div class="col-md-6 total">
+                        <p id = "total"> </p>
+                       </div>
+                       <div class="col-md-3">
+
+                       </div>
+                     </div>
+                     </form>
+                     <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+               </div>
+             </div>
+           </div>
+        <!-- end of modal body -->
+         <!-- Modal footer -->
+         <!-- <div class="modal-footer">
+
+         </div> -->
+
+       </div>
+     </div>
+    </div>
+    <!-- end of modal for combination-->
+    <!--  -->
+
+      <!-- modal for BBQ Steak -->
+    <div class="modal" id="Modal5">
+     <div class="modal-dialog">
+       <div class="modal-content">
+
+         <!-- Modal Header -->
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title" id = "title">BBQ Steak</h4>
+         </div>
+         <!-- Modal body -->
+         <div class="modal-body">
+           <h4>Choose Size: </h4>
+
+             <div class="row ">
+              <div class="col-md-12">
+                <form id ="neworder" >
+
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="small" value="550" required>
+                     <label class="form-check-label" for="inlineRadio1">Small - 550ksh</label>
+                   </div>
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="850" required>
+                     <label class="form-check-label" for="inlineRadio2">Medium  - 850ksh</label>
+                   </div>
+                   <div class="form-check size">
+                     <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1200" required>
+                     <label class="form-check-label" for="inlineRadio3">Large   - 1200ksh</label>
+                   </div>
+
+
+                 <h4>Choose Crust : </h4>
+
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                     <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                   </div>
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                     <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                   </div>
+                   <div class="form-check crust">
+                     <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                     <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                   </div>
+
+
+                 <h4>Choose Extra Toppings : </h4>
+
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                       <label class="form-check-label" for="defaultCheck1">
+                        Cheese - 100ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Sausage - 100ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Bacon - 150ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Mushroom - 150ksh
+                      </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Veggies - 50ksh
+                       </label>
+                     </div>
+                     <div class="form-check">
+                       <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                       <label class="form-check-label" for="defaultCheck2">
+                        Olives - 50ksh
+                       </label>
+                     </div>
+                     <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                     <div class="row ">
+                       <div class="col-md-3">
+
+                       </div>
+                       <div class="col-md-6 total">
+                        <p id = "total"> </p>
+                       </div>
+                       <div class="col-md-3">
+
+                       </div>
+                     </div>
+                     </form>
+                     <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+
+               </div>
+             </div>
+           </div>
+        <!-- end of modal body -->
+         <!-- Modal footer -->
+         <!-- <div class="modal-footer">
+
+         </div> -->
+
+       </div>
+     </div>
+    </div>
+    <!-- end of modal for BBQ Steak-->
+    <!--  -->
+
+    <!-- modal for Chicken Tikka -->
+  <div class="modal" id="Modal2">
+   <div class="modal-dialog">
+     <div class="modal-content">
+
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title" id = "title">Chicken Tikka</h4>
+       </div>
+       <!-- Modal body -->
+       <div class="modal-body">
+         <h4>Choose Size: </h4>
+
+           <div class="row ">
+            <div class="col-md-12">
+              <form id ="neworder" >
+
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="small" value="500" required>
+                   <label class="form-check-label" for="inlineRadio1">Small - 500ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="800" required>
+                   <label class="form-check-label" for="inlineRadio2">Medium  - 800ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1100" required>
+                   <label class="form-check-label" for="inlineRadio3">Large   - 1100ksh</label>
+                 </div>
+
+
+               <h4>Choose Crust : </h4>
+
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                   <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                   <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                   <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                 </div>
+
+
+               <h4>Choose Extra Toppings : </h4>
+
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                     <label class="form-check-label" for="defaultCheck1">
+                      Cheese - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Sausage - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Bacon - 150ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Mushroom - 150ksh
+                    </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Veggies - 50ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Olives - 50ksh
+                     </label>
+                   </div>
+                   <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                   <div class="row ">
+                     <div class="col-md-3">
+
+                     </div>
+                     <div class="col-md-6 total">
+                      <p id = "total"> </p>
+                     </div>
+                     <div class="col-md-3">
+
+                     </div>
+                   </div>
+                   </form>
+                   <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+             </div>
+           </div>
+         </div>
+      <!-- end of modal body -->
+       <!-- Modal footer -->
+       <!-- <div class="modal-footer">
+
+       </div> -->
+
+     </div>
+   </div>
+  </div>
+  <!-- end of modal for Chicken Tikka -->
+  <!--  -->
+
+  <!-- modal for Chicken & Beef -->
+  <div class="modal" id="Modal7">
+   <div class="modal-dialog">
+     <div class="modal-content">
+
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title" id = "title">Chicken & Beef </h4>
+       </div>
+       <!-- Modal body -->
+       <div class="modal-body">
+         <h4>Choose Size: </h4>
+
+           <div class="row ">
+            <div class="col-md-12">
+              <form id ="neworder" >
+
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="small" value="500" required>
+                   <label class="form-check-label" for="inlineRadio1">Small - 500ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="800" required>
+                   <label class="form-check-label" for="inlineRadio2">Medium  - 800ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1100" required>
+                   <label class="form-check-label" for="inlineRadio3">Large   - 1100ksh</label>
+                 </div>
+
+
+               <h4>Choose Crust : </h4>
+
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                   <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                   <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                   <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                 </div>
+
+
+               <h4>Choose Extra Toppings : </h4>
+
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                     <label class="form-check-label" for="defaultCheck1">
+                      Cheese - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Sausage - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Bacon - 150ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Mushroom - 150ksh
+                    </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Veggies - 50ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Olives - 50ksh
+                     </label>
+                   </div>
+
+
+                   <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                   <div class="row ">
+                     <div class="col-md-3">
+
+                     </div>
+                     <div class="col-md-6 total">
+                      <p id = "total"> </p>
+                     </div>
+                     <div class="col-md-3">
+
+                     </div>
+                   </div>
+                 </form>
+                 <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+             </div>
+           </div>
+         </div>
+      <!-- end of modal body -->
+       <!-- Modal footer -->
+       <!-- <div class="modal-footer">
+
+       </div> -->
+
+     </div>
+   </div>
+  </div>
+  <!-- end of modal for Chicken & Beef -->
+  <!--  -->
+
+  <!-- modal for Something Veggie -->
+  <div class="modal" id="Modal3">
+   <div class="modal-dialog">
+     <div class="modal-content">
+
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title" id = "title">Something Veggie</h4>
+       </div>
+       <!-- Modal body -->
+       <div class="modal-body">
+         <h4>Choose Size: </h4>
+
+           <div class="row ">
+            <div class="col-md-12">
+              <form id ="neworder" >
+
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="small" value="450" required>
+                   <label class="form-check-label" for="inlineRadio1">Small - 450ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="700" required>
+                   <label class="form-check-label" for="inlineRadio2">Medium  - 700ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1000" required>
+                   <label class="form-check-label" for="inlineRadio3">Large   - 1000ksh</label>
+                 </div>
+
+
+               <h4>Choose Crust : </h4>
+
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                   <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                   <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                   <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                 </div>
+
+
+               <h4>Choose Extra Toppings : </h4>
+
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                     <label class="form-check-label" for="defaultCheck1">
+                      Cheese - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Sausage - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Bacon - 150ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Mushroom - 150ksh
+                    </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Veggies - 50ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Olives - 50ksh
+                     </label>
+                   </div>
+
+                   <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                   <div class="row ">
+                     <div class="col-md-3">
+
+                     </div>
+                     <div class="col-md-6 total">
+                      <p id = "total"> </p>
+                     </div>
+                     <div class="col-md-3">
+
+                     </div>
+                   </div>
+                 </form>
+                 <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+             </div>
+           </div>
+         </div>
+      <!-- end of modal body -->
+       <!-- Modal footer -->
+       <!-- <div class="modal-footer">
+
+       </div> -->
+
+     </div>
+   </div>
+  </div>
+  <!-- end of modal for Something Veggie-->
+  <!--  -->
+
+  <!-- modal for PLainly Cheesey -->
+  <div class="modal" id="Modal4">
+   <div class="modal-dialog">
+     <div class="modal-content">
+
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title" id = "title">Plainly Cheesey</h4>
+       </div>
+       <!-- Modal body -->
+       <div class="modal-body">
+         <h4>Choose Size: </h4>
+
+           <div class="row ">
+            <div class="col-md-12">
+              <form id ="neworder" >
+
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="small" value="450" required>
+                   <label class="form-check-label" for="inlineRadio1">Small - 450ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="700" required>
+                   <label class="form-check-label" for="inlineRadio2">Medium  - 700ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1000" required>
+                   <label class="form-check-label" for="inlineRadio3">Large   - 1000ksh</label>
+                 </div>
+
+
+               <h4>Choose Crust : </h4>
+
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                   <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                   <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                   <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                 </div>
+
+
+               <h4>Choose Extra Toppings : </h4>
+
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                     <label class="form-check-label" for="defaultCheck1">
+                      Cheese - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Sausage - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Bacon - 150ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Mushroom - 150ksh
+                    </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Veggies - 50ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Olives - 50ksh
+                     </label>
+                   </div>
+                   <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                   <div class="row ">
+                     <div class="col-md-3">
+
+                     </div>
+                     <div class="col-md-6 total">
+                      <p id = "total"> </p>
+                     </div>
+                     <div class="col-md-3">
+
+                     </div>
+                     </div>
+                  </form>
+                  <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+             </div>
+           </div>
+         </div>
+      <!-- end of modal body -->
+       <!-- Modal footer -->
+       <!-- <div class="modal-footer">
+
+       </div> -->
+
+     </div>
+   </div>
+  </div>
+  <!-- end of modal for Plainly Cheesey-->
+  <!--  -->
+  <!-- modal for Hawaiian -->
+  <div class="modal" id="Modal6">
+   <div class="modal-dialog">
+     <div class="modal-content">
+
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title" id = "title">Hawaiian</h4>
+       </div>
+       <!-- Modal body -->
+       <div class="modal-body">
+         <h4>Choose Size: </h4>
+
+           <div class="row ">
+            <div class="col-md-12">
+              <form id ="neworder">
+
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="small" value="450" required>
+                   <label class="form-check-label" for="inlineRadio1">Small - 450ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="medium" value="700" required>
+                   <label class="form-check-label" for="inlineRadio2">Medium  - 700ksh</label>
+                 </div>
+                 <div class="form-check size">
+                   <input class="form-check-input " type="radio" name="pizzasize" id="large" value="1000" required>
+                   <label class="form-check-label" for="inlineRadio3">Large   - 1000ksh</label>
+                 </div>
+
+
+               <h4>Choose Crust : </h4>
+
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thin" value="0">
+                   <label class="form-check-label" for="inlineRadio1">Thin -0ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="thick" value="150">
+                   <label class="form-check-label" for="inlineRadio2"> Extra Thick - 150ksh</label>
+                 </div>
+                 <div class="form-check crust">
+                   <input class="form-check-input" type="radio" name="pizzacrust" id="glutenFree" value="250">
+                   <label class="form-check-label" for="inlineRadio3">Gluten free - 250ksh</label>
+                 </div>
+
+
+               <h4>Choose Extra Toppings : </h4>
+
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="100" id="cheese">
+                     <label class="form-check-label" for="defaultCheck1">
+                      Cheese - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings"type="checkbox" value="100" id="sausage">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Sausage - 100ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="150" id="bacon">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Bacon - 150ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input"name="top_ings" type="checkbox" value="150" id="mushroom">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Mushroom - 150ksh
+                    </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="veggies">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Veggies - 50ksh
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" name="top_ings" type="checkbox" value="50" id="olives">
+                     <label class="form-check-label" for="defaultCheck2">
+                      Olives - 50ksh
+                     </label>
+                   </div>
+                   <button type="submit" class="btn btn-danger place-order"  >SUBMIT</button>
+                   <div class="row ">
+                     <div class="col-md-3">
+
+                     </div>
+                     <div class="col-md-6 total">
+                      <p id = "total"> </p>
+                     </div>
+                     <div class="col-md-3">
+
+                     </div>
+                  </div>
+                </form>
+                <button type="" class="btn btn-danger place-order" data-dismiss ="modal" data-toggle="modal" data-target = "#deliveryoptions" > ADD TO PLACE ORDER</button>
+
+
+             </div>
+           </div>
+         </div>
+      <!-- end of modal body -->
+       <!-- Modal footer -->
+       <!-- <div class="modal-footer">
+
+       </div> -->
+
+     </div>
+   </div>
+  </div>
+  <!-- end of modal for Hawaiian-->
+  <!-- modal for deliveryoptions and delivery options -->
+
+
 
 
 <!-- end of container full -->
