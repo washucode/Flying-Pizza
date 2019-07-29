@@ -138,14 +138,14 @@ $(document).ready(function(){
     var pizzaGrandTotal = 0;
     for(var i = 0;i<$('.totalorder').length;i++){
       pizzaGrandTotal  += newPizzaOrder.total();
+      $("div#totalOrder").text("Grand Total = "+pizzaGrandTotal+"ksh");
+
 
     }
 
     $(".confirm2").click(function(event){
-      event.preventDefault();
-      $("div#totalOrder").text("Grand Total = "+pizzaGrandTotal+"ksh");
-      alert("Grand Total = "+pizzaGrandTotal+"ksh .");
       alert("Thank-You for ordering with us.Your order will be ready shortly");
+      alert($("div#totalOrder").text());
     })
 
 
