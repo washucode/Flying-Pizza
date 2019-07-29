@@ -90,7 +90,7 @@ $(document).ready(function(){
 
   pizzaCrustValue();
 
-  //to get  toppingPrice
+  //to get  total toppingPrice and names of selected Toppings
   function toppingPriceTotal(){
        for(var i = 0;i<document.getElementsByName('top_ings').length;i++){
          if(document.getElementsByName('top_ings')[i].checked){
@@ -102,6 +102,13 @@ $(document).ready(function(){
    }
 
    toppingPriceTotal();
+
+ //object
+   var  newPizzaOrder = new pizzaOrder(
+    pizzaType,sizePrice,crustPrice,toppingPrice
+  );
+
+
 
 
 
