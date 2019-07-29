@@ -21,6 +21,11 @@ To contribute:
  * atom . or code . depending on the text editor you use.
  * feel free to edit.
 
+## TECHNOLOGIES USED :
+ * Bootstrap
+ * JQUERY
+ * HTML5 AND CSS3
+ * JAVASCRIPT
 
 
 
